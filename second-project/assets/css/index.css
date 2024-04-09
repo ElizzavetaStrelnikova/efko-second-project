@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.container {
+  background-color: white;
+}
+
+.avatar {
+  width: 250px;
+  height: 280px;
+  border-radius: 20px;
+}
+
+.container h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.container h2 {
+  color: grey;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.contacts {
+  background-color: #f2f5f9;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.contacts-blocks {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.contacts-links h3 {
+  margin: 0;
+  color: grey;
+}
+
+.contacts-links p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.contacts-button {
+  border-radius: 20px;
+  border-color: #ff9c1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(237, 142, 8);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 142, 8, 1) 21%,
+    rgba(218, 51, 19, 1) 100%
+  );
+}
+
+.contacts-button p {
+  font-weight: bold;
+  font-size: 18px;
+}
